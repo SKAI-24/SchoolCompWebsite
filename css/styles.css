@@ -10,6 +10,10 @@ a {
   color: whitesmoke;
 }
 
+h1 {
+  margin-bottom: 5px;
+}
+
 img {
   max-width: 600px;
   max-height: 600px;
@@ -44,4 +48,16 @@ p {
 .button:hover {
   color: #2e3037;
   transition: 0.5s;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2e3037;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5d5d72;
 }
