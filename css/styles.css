@@ -1,8 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 html {
+  font-family: "Poppins";
   scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
   color: whitesmoke;
+}
+
+img {
+  max-width: 600px;
+}
+
+p {
+  font-size: 23px;
+}
+
+h1 {
+  margin-bottom: 20px;
 }
