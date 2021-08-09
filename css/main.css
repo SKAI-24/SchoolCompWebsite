@@ -1,0 +1,76 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2e3037;
+  font-family: montserrat;
+  color: whitesmoke;
+}
+body header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #5d5d72;
+  height: 100px;
+  width: 100%;
+  z-index: 10;
+}
+body header .logo {
+  flex: 1 1 auto;
+  margin-left: 10%;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 40px;
+}
+body header .nav {
+  display: flex;
+  justify-content: right;
+  color: white;
+  margin-right: 15%;
+  font-weight: 550;
+  font-size: 22px;
+}
+body header .nav li {
+  list-style: none;
+}
+body header .nav li a {
+  padding: 15px;
+}
+body header .nav li a:hover {
+  color: #2e3037;
+  transition: 0.5s;
+}
+body .container {
+  width: 100%;
+  height: 100%;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+body .container section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+}
+body .container section:nth-of-type(1) {
+  font-size: 50px;
+  background-color: #5d5d72;
+}
+body .container section:nth-of-type(2) {
+  font-size: 50px;
+}
+body .container section:nth-of-type(3) {
+  font-size: 50px;
+}
+body .container section:nth-of-type(4) {
+  font-size: 50px;
+}/*# sourceMappingURL=main.css.map */
