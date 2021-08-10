@@ -149,6 +149,11 @@ body {
           display: flex;
           align-items: center;
           justify-content: center;
+
+          video {
+            border: #5d5d72 5px solid;
+            border-radius: 2px;
+          }
         }
       }
 

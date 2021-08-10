@@ -133,6 +133,10 @@ body .container section:nth-of-type(3) .video-container {
   align-items: center;
   justify-content: center;
 }
+body .container section:nth-of-type(3) .video-container video {
+  border: #5d5d72 5px solid;
+  border-radius: 2px;
+}
 body .container section:nth-of-type(4) {
   font-size: 40px;
   display: flex;
