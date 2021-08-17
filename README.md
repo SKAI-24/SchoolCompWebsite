@@ -1,2 +1,2 @@
 # SchoolCompWebsite
-Basic Website for a School Competition - Audition Round
+Basic Website for a School Competition
